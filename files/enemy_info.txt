@@ -1,0 +1,29 @@
+- Natural:
+    --- normal ---
+        player  - you
+        graper  - give xp only. xp_lv = 2
+        frank   - give xp only. xp_lv = 5
+
+    --- hostile ---
+        karate   - attack directly. xp_lv = 7
+        graster - attack by an arrow. xp_lv = 9
+        kaaper - attack by explosion. xp_lv = 10
+        grastro - attack by an explosive arrow. xp_lv = 15
+
+
+- Golden:
+    --- normal ---
+        player  - you
+        graper  - give xp only. xp_lv = 10
+        frank   - give xp only. xp_lv = 25
+
+    --- hostile ---
+        karate   - attack directly. xp_lv = 35
+        groster - attack by an arrow. xp_lv = 45
+        kaaper - attack by explosion. xp_lv = 50
+        grestro - attack by an explosive arrow. xp_lv = 75
+
+
+
+- Bose:
+        wacan
