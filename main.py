@@ -20,7 +20,7 @@ window.fps_counter.color = color.green
 
 application.development_mode = False
 
-SPLASH = True
+SPLASH = True # make it False to stop splash screen
 
 window.fullscreen = True
 sound = Audio('life_is_currency', pitch=random.uniform(.5, 1), loop=True, autoplay=False, volume=1)
@@ -86,7 +86,7 @@ seed = random.Random()
 # seed.seed(1032)
 
 
-f = [0.5, 0.25, 0.1, 0.085, 0.07, 0.05]
+f = [0.5, 0.25, 0.1, 0.085, 0.07, 0.05] # probablities of summoning of a mob.
 
 f0 = False
 f1 = False
@@ -238,7 +238,7 @@ mouse.traverse_target = killable
 
 
 def exitfunc():
-    print('\033[32m\nWhy you exit...')
+    print('\033[32m\nWhy you exit...') #Print when use exit the window
 
 
 app.exitFunc = exitfunc
