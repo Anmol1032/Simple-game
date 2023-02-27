@@ -13,7 +13,7 @@ def main():
     while alfa < 440:
         sky = Sky(color=color.rgba(20, 100, 255, alfa), scale=scale)
         scale += 3
-        alfa += 50
+        alfa += 50      # Less alfa increase fog like effect but somewhat less FPS and more loading in while start.
         sky_parent.combine().vertices.extend(sky.combine().vertices)
 
 
@@ -31,9 +31,7 @@ def main():
             block = Entity(position=(x, y, z), model='cube', collider='box',
                            scale=(128, 128, 128), texture='files/img.png', color=color.rgb(20, 100, 255),
                            texture_scale=(2, 2, 2))
-
-            # level_parent.model.vertices.extend(block.model.vertices)
-            # level_parent.combine().vertices.extend(block.combine().vertices)
+            # level_parent.combine().vertices.extend(block.combine().vertices)        # Uncomment this to increase FPS but it take much loading while start.
 
     level_parent.collider = 'mesh'
 
