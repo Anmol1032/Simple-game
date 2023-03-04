@@ -23,7 +23,6 @@
         kaaper - attack by explosion. xp_lv = 50
         grestro - attack by an explosive and shulkering arrow. xp_lv = 75
 
-
 - Bose:
         wacan
 
